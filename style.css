@@ -12,8 +12,14 @@ body,
   padding: 0;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #f9fbfd;
 }
 
@@ -36,11 +42,27 @@ header {
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
 }
+
+.selectors {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.form-selectors {
+display: grid;
+grid-template-columns: auto;
+
+}
+
 
 .card-header::after {
   content: " ";
@@ -86,6 +108,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c0c7cf;
 }
 
 button[disabled] {
