@@ -1,2 +1,6 @@
-# BCS-Password-Gen
-Password generator to produce secure passwords, as well as to practice java script. 
+## Password Generator 
+
+## Table of Contents 
+ - [Summary](#summary)
+ - [Installation](#installation)
+ - 
